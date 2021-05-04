@@ -18,6 +18,12 @@ int division(int a, int b){
 	if(a>0 && b>0){
 		return a/b;
 	}
+
+int modulo(int a, int b){
+	if(a>0 && b>0){
+		return a%b;
+	}
+	return 0;
 }
 int main(){
 	int result = sum(5,2);
